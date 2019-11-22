@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+	
+}
+
+body{
+	background-image: url('../img/backgroundcat.jpg');
+}
+
+.wrap{
+	width: 100%;
+	height: 100%;
+	background-color: #0006;	
+
+}
+
+#timer{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+	/*text-shadow: -4px 0 5px white, 4px 0 5px white, 0px 4px 5px white, 0 -4px 5px white;*/
+	text-shadow: 3px 0  #0007, -3px 0  #0007, 0px -3px  #0007, 0 3px  #0007;
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.time{
+	text-align:center;
+	font-size:15em;
+	height: 100px;
+	line-height: 100px;
+}
+
+.col{
+	text-align:center;
+	font-size:15em;
+	height: 100px;
+	line-height: 100px;
+	margin: 0 50px;
+	position: relative;
+	top: -20px;
+}
+
+
+form{
+	height: 100%;
+}
+
+
+#search{
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -10%);
+	width: 50%;
+	height: 8%;
+}
+
+#searchengine{
+	font-size: 1em;
+	color: lightgray;
+	/*text-shadow: 1px 0  #FFF9, -1px 0  #FFF9, 0px -1px  #FFF9, 0 1px  #FFF9;*/
+	font-size: 1.2em;
+}
+
+#searchbar{
+	position: relative;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -10%);
+	width: 100%;
+	height: 90%;
+	border: 10px solid orange;
+	text-align: center;
+	background-color: #0002;
+}
+
+#searchbar input{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: none;
+	text-align: left;
+	line-height: 100%;
+	background-color: transparent;
+	font-size: 3em;
+	padding-left: 1em;
+}

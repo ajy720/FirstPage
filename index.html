@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Timer ver.1</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js""></script>
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<div class="wrap">
+		<div id="search">
+			<form action="">
+				<div id="searchengine">
+					<input type="radio" name="engine" value="google" checked> 꾺을
+					<input type="radio" name="engine" value="naver"> 나버
+				</div>
+
+				<div id="searchbar">
+					<input 
+					type="" 
+					placeholder="검색어를 입력하세요." 
+					onKeypress="javascript:if(event.keyCode==13) {Alert();}">
+				</div>
+			</form>
+		</div>
+
+		<div id=timer>
+			<span class="time" id="hour"></span>
+			<span class="col">:</span>
+			<span class="time" id="min"></span>
+			<span class="col">:</span>
+			<span class="time" id="sec"></span>
+		</div>
+	</div>
+</body>
+</html>
