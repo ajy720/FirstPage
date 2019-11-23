@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	clock();
-
+	document.querySelector("#searchengine input:first-child").addEventListener("change", e => {
+		alert("google");
+	});
 })
 
 function clock(){
@@ -20,6 +22,5 @@ function clock(){
 };
 
 function Alert(){
-	alert("물론 검색은 안 됨 ㅎ ㅋ");
 };
 
