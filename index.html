@@ -13,15 +13,22 @@
 		<div id="search">
 			<form onsubmit="">
 				<div id="searchengine">
-					<input type="radio" name="engine" value="google" checked><img src="img/google-icon.png" alt="google icon" width="15" height="15">Google
-					<input type="radio" name="engine" value="naver"><img src="img/naver_icon.png" alt="naver icon" width="15" height="15">Naver
+					<label id="google">
+						<input type="radio" name="engine" value="google" checked>
+						<img src="img/google-icon.png" alt="google icon" width="15" height="15">Google
+					</label>
+					<label id="naver">
+						<input type="radio" name="engine" value="naver">
+						<img src="img/naver_icon.png" alt="naver icon" width="15" height="15">Naver
+					</label>
 				</div>
 
 				<div id="searchbar">
-					<input 
+               <input 
+               id="searchinput"
 					type="" 
 					placeholder="검색어를 입력하세요." 
-					onKeypress="javascript:if(event.keyCode==13) {Alert();}">
+					onKeypress="javascript:if(event.keyCode==13) {Search()}">
 				</div>
 			</form>
 		</div>
