@@ -5,6 +5,10 @@
 	outline: none;
 }
 
+html{
+	font-size: 10px;
+}
+
 html, body{
 	width: 100%;
 	height: 100%;
@@ -13,6 +17,8 @@ html, body{
 
 body{
 	background-image: url('../img/backgroundcat.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .wrap{
@@ -36,19 +42,19 @@ body{
 
 .time{
 	text-align:center;
-	font-size:15em;
+	font-size:15rem;
 	height: 100px;
 	line-height: 100px;
 }
 
 .col{
 	text-align:center;
-	font-size:15em;
+	font-size:15rem;
 	height: 100px;
 	line-height: 100px;
-	margin: 0 50px;
+	margin: 0 5rem;
 	position: relative;
-	top: -20px;
+	top: -1rem;
 }
 
 
@@ -56,21 +62,24 @@ form{
 	height: 100%;
 }
 
-
 #search{
 	position: absolute;
 	top: 15%;
 	left: 50%;
 	transform: translate(-50%, -10%);
 	width: 50%;
-	height: 8%;
+	height: 8em;
 }
 
 #searchengine{
-	font-size: 1em;
 	color: lightgray;
 	/*text-shadow: 1px 0  #FFF9, -1px 0  #FFF9, 0px -1px  #FFF9, 0 1px  #FFF9;*/
-	font-size: 1.2em;
+	font-size: 2rem;
+}
+
+#searchengine img{
+	width: 2rem;
+	height: 2rem;
 }
 
 #searchbar{
@@ -93,7 +102,7 @@ form{
 	text-align: left;
 	line-height: 100%;
 	background-color: transparent;
-	font-size: 3em;
-	padding-left: 1em;
+	font-size: 3rem;
+	padding-left: 1rem;
 	color: white;
 }
