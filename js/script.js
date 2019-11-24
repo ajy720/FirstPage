@@ -8,11 +8,20 @@ $(document).ready(function(){
 	document.querySelector("#google input").addEventListener("change", ()=>{
 		console.log("Google");
 		selectEngine = "google";
+		$("#search #searchbar").css({
+			"border-top" : "10px solid rgb(66,133,244)",
+			"border-left" : "10px solid rgb(234,67,53)",
+			"border-right" : "10px solid rgb(251,188,5)",
+			"border-bottom" : "10px solid rgb(52,168,83)"
+		});
 	});
 
 	document.querySelector("#naver input").addEventListener("change", ()=>{
 		console.log("Naver");
 		selectEngine = "naver";
+		$("#search #searchbar").css({
+			"border" : "10px solid #03cf5d"
+		});
 	});
 
 })

@@ -76,8 +76,13 @@ form{
 #searchengine{
 	color: lightgray;
 	/*text-shadow: 1px 0  #FFF9, -1px 0  #FFF9, 0px -1px  #FFF9, 0 1px  #FFF9;*/
-	font-size: 2rem;
-	height: 20%;
+	font-size: 2.2rem;
+	height: 22%;
+}
+
+#searchengine input{
+	width: 1.5rem;
+	height: 1.5rem;
 }
 
 #searchengine img{
@@ -92,7 +97,7 @@ form{
 	left: 50%;
 	transform: translate(-50%, -10%);
 	width: 100%;
-	height: 80%;
+	height: 78%;
 	border: 10px solid orange;
 	text-align: center;
 	background-color: #0002;
