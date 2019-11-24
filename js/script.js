@@ -13,7 +13,7 @@ $(document).ready(function(){
 			"border-left" : "10px solid rgb(234,67,53)",
 			"border-right" : "10px solid rgb(251,188,5)",
 			"border-bottom" : "10px solid rgb(52,168,83)"
-		});
+		}, 1000);
 	});
 
 	document.querySelector("#naver input").addEventListener("change", ()=>{

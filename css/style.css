@@ -101,6 +101,7 @@ form{
 	border: 10px solid orange;
 	text-align: center;
 	background-color: #0002;
+	transition: 1s;
 }
 
 #searchbar input{
