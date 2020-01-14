@@ -1,9 +1,22 @@
-# SearchTimer
-Functions
-1. Time Check
-2. Search Keyword from external Search engine such as Google, Naver..
+
+# FirstPage
+### 💻컴퓨터가 익숙하지 않은 분들을 위한 첫 화면👨‍👩‍👧‍👦
+#### 기능
+1. ⏰시간 확인
+2. 🔎다양한 외부 검색 엔진으로 손쉽게 검색(구글, 네이버, 다음, 유튜브)
+
+#### 추가 예정 
+ - 📆구글 캘린더 연동 일정 확인
+ - 🎨배경 사용자 설정(사진, 색상)
+ -  📝할 일 목록
+
 
 ## ToDo
-- [ ] README.md 정리
+- [x] README.md 정리
 - [ ] UI 재구성
-- [ ] 배경 이미지 교체
+- [x] 제목 변경 (SearchClock -> FirstPage)
+- [ ] 달력 추가
+- [ ] 구글 캘린더 연동 
+- [ ] 배경 사용자 설정 기능(색상, 그라데이션 등)
+- [ ] 배경 사진 사용자 설정  기능
+- [ ] 할 일 목록 만들기
