@@ -40,7 +40,24 @@ class Search extends Component {
     selected: 0,
   };
 
-  changeStyle = () => {};
+  changeStyle = (id) => {
+    const bar = document.querySelector(".searchBar");
+
+    switch (id) {
+      case 0:
+        bar.setAttribute("class", "searchBar google");
+        break;
+      case 1:
+        bar.setAttribute("class", "searchBar naver");
+        break;
+      case 2:
+        bar.setAttribute("class", "searchBar daum");
+        break;
+      case 3:
+        bar.setAttribute("class", "searchBar youtube");
+        break;
+    }
+  };
 
   submitInput = (e) => {
     const { engines, inputMessage, selected } = this.state;
@@ -75,7 +92,7 @@ class Search extends Component {
                   value={e.id}
                   onClick={() => {
                     this.setState({ selected: e.id });
-                    this.changeStyle();
+                    this.changeStyle(e.id);
                   }}
                 />
                 <img src={e.img} alt={e.name} width="15"></img>
@@ -84,7 +101,7 @@ class Search extends Component {
             ))}
           </div>
 
-          <div id="searchBar">
+          <div className="searchBar">
             <input
               type="text"
               placeholder="검색어를 입력하세요."

@@ -26,11 +26,11 @@ class Timer extends Component {
     const { h, m, s } = this.state;
     return (
       <div id="timer">
-        <div class="digit">{h}</div>
-        <div class="colon">:</div>
-        <div class="digit">{m}</div>
-        <div class="colon">:</div>
-        <div class="digit">{s}</div>
+        <div className="digit">{h}</div>
+        <div className="colon">:</div>
+        <div className="digit">{m}</div>
+        <div className="colon">:</div>
+        <div className="digit">{s}</div>
       </div>
     );
   }
