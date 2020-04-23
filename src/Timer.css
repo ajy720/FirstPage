@@ -1,0 +1,19 @@
+#timer {
+  font-size: 15rem;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  text-shadow: 3px 0 #0007, -3px 0 #0007, 0px -3px #0007, 0 3px #0007;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 1200px;
+}
+
+#timer > div.digit {
+  width: 30%;
+  text-align: center;
+  padding-top: 1rem;
+}

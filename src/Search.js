@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "./Search.css";
+
 import daum_icon from "./img/daum_icon.png";
 import google_icon from "./img/google_icon.png";
 import naver_icon from "./img/naver_icon.png";
@@ -82,15 +84,16 @@ class Search extends Component {
             ))}
           </div>
 
-          <input
-            id="searchBar"
-            type="text"
-            placeholder="검색어를 입력하세요."
-            value={this.state.inputMessage}
-            onChange={this.handleMessage}
-            name="input"
-            autoFocus
-          ></input>
+          <div id="searchBar">
+            <input
+              type="text"
+              placeholder="검색어를 입력하세요."
+              value={this.state.inputMessage}
+              onChange={this.handleMessage}
+              name="input"
+              autoFocus
+            ></input>
+          </div>
         </form>
       </div>
     );
