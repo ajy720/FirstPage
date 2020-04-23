@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ajy720/FirstPage/static/css/main.5c55d6e0.chunk.css",
-    "main.js": "/ajy720/FirstPage/static/js/main.d2200409.chunk.js",
-    "main.js.map": "/ajy720/FirstPage/static/js/main.d2200409.chunk.js.map",
+    "main.js": "/ajy720/FirstPage/static/js/main.43297e7f.chunk.js",
+    "main.js.map": "/ajy720/FirstPage/static/js/main.43297e7f.chunk.js.map",
     "runtime-main.js": "/ajy720/FirstPage/static/js/runtime-main.72e94e81.js",
     "runtime-main.js.map": "/ajy720/FirstPage/static/js/runtime-main.72e94e81.js.map",
     "static/js/2.ba0519cf.chunk.js": "/ajy720/FirstPage/static/js/2.ba0519cf.chunk.js",
     "static/js/2.ba0519cf.chunk.js.map": "/ajy720/FirstPage/static/js/2.ba0519cf.chunk.js.map",
     "index.html": "/ajy720/FirstPage/index.html",
-    "precache-manifest.7d046a78cc68353f33ed59191c7f6d9c.js": "/ajy720/FirstPage/precache-manifest.7d046a78cc68353f33ed59191c7f6d9c.js",
+    "precache-manifest.d7ab8bb637f0a73ba1a8dee789f72f8f.js": "/ajy720/FirstPage/precache-manifest.d7ab8bb637f0a73ba1a8dee789f72f8f.js",
     "service-worker.js": "/ajy720/FirstPage/service-worker.js",
     "static/css/main.5c55d6e0.chunk.css.map": "/ajy720/FirstPage/static/css/main.5c55d6e0.chunk.css.map",
     "static/js/2.ba0519cf.chunk.js.LICENSE.txt": "/ajy720/FirstPage/static/js/2.ba0519cf.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.72e94e81.js",
     "static/js/2.ba0519cf.chunk.js",
     "static/css/main.5c55d6e0.chunk.css",
-    "static/js/main.d2200409.chunk.js"
+    "static/js/main.43297e7f.chunk.js"
   ]
 }
