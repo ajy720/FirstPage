@@ -1,0 +1,91 @@
+.search {
+  width: 50%;
+  position: relative;
+  top: 15%;
+  height: 110px;
+  text-align: center;
+  z-index: 999;
+}
+
+.engines {
+  color: white;
+  font-size: 1.3rem;
+  margin-bottom: 4px;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.engines > label {
+  border-radius: 0.4rem;
+  padding: 4px 0.3rem;
+}
+
+.engines > label:hover {
+  background-color: rgba(32, 32, 32, 0.5);
+}
+
+.engines > label:active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.engines input {
+  display: none;
+}
+
+.engines img {
+  margin: 0 3px;
+  width: 1.3rem;
+  position: relative;
+  top: 3px;
+}
+
+form {
+  height: 100%;
+}
+
+.searchBar {
+  width: 100%;
+  height: 78%;
+  border: 10px solid white;
+  text-align: center;
+  background-color: #0002;
+  transition: 1s;
+  background: linear-gradient(
+    to right,
+    rgba(0, 137, 255, 0.1),
+    rgba(64, 224, 208, 0.1),
+    rgba(255, 140, 0, 0.1),
+    rgba(255, 0, 128, 0.1)
+  );
+}
+
+.searchBar input {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: none;
+  text-align: left;
+  line-height: 100%;
+  background-color: transparent;
+  font-size: 2rem;
+  padding-left: 1rem;
+  color: white;
+}
+
+.search > form > .google {
+  border-top: 10px solid rgb(66, 133, 244);
+  border-left: 10px solid rgb(234, 67, 53);
+  border-right: 10px solid rgb(251, 188, 5);
+  border-bottom: 10px solid rgb(52, 168, 83);
+}
+
+.search > form > .naver {
+  border: 10px solid #03cf5d;
+}
+
+.search > form > .daum {
+  border: 10px solid #0089ff;
+}
+.search > form > .youtube {
+  border: 10px solid #cc2a2a;
+}
