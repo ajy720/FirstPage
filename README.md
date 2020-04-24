@@ -10,6 +10,8 @@
  -  📝할 일 목록
 
 ## ToDo
+- [x] React로 리팩토링 하기 (refactor 브랜치에서 진행중)
+- [x] Github Page에 배포하기
 - [x] README.md 정리
 - [ ] UI 재구성
 - [x] 제목 변경 (SearchClock -> FirstPage)
@@ -18,4 +20,3 @@
 - [ ] 배경 사용자 설정 기능(색상, 그라데이션 등)
 - [ ] 배경 사진 사용자 설정  기능
 - [ ] 할 일 목록 만들기
-- [x] React로 리팩토링 하기 (refactor 브랜치에서 진행중)
