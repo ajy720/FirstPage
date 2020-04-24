@@ -56,6 +56,8 @@ class Search extends Component {
       case 3:
         bar.setAttribute("class", "searchBar youtube");
         break;
+      default:
+        break;
     }
   };
 
